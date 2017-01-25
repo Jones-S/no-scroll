@@ -45,6 +45,7 @@
   var noScroll = {
     on: on,
     off: off,
+    getScrollbarSize: getScrollbarSize
   };
 
   if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
